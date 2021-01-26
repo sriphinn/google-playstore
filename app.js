@@ -42,3 +42,5 @@ app.get("/apps", (req, res) => {
 app.listen(8001, () => {
     console.log('Playstore is running at http://localhost:8001');
 });
+
+module.exports = app;
